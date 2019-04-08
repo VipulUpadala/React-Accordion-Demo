@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.container {
+  border: double 5px currentColor;
+  width: 50%;
+  padding: 25px;
+  text-align: left;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+.container input {
+  width: 80%;
+  height: 30px;
+}
+.container span {
+  padding-left: 10px;
+}
+.accordion {
+  border: double 5px currentColor;
+  width: 50%;
+  padding: 25px;
+  text-align: left;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+.accordion input {
+  width: 80%;
+  height: 30px;
+  margin: 5px;
+}
+.accordion textarea {
+  width: 80%;
+  height: 100px;
+  margin: 5px;
+}
+.accordion .btnC button {
+  width: 80%;
+  border: double 2px gray;
+  height: 45px;
+  margin: 5px;
+  color: green;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+.accordion-one {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion-one:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  width: 80%;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.acc {
+  width: 80%;
+  margin: 5px;
+}
